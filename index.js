@@ -8,7 +8,7 @@ require("dotenv").config();
 const port = 5000 ;
 
 // to allow your frontend
-app.use(cors({ origin: [["http://localhost:3000"]] }));
+app.use(cors({ origin: [["http://localhost:3000", "https://threed-visualizer-rehnuma.onrender.com"]] }));
 app.use(express.json());
 
 //middleware
